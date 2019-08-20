@@ -1,0 +1,108 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+ body {
+   background-color: #ecf0f5;
+ }
+
+ .header {
+   background-color: rgb(19, 37, 37);
+   display: block;
+   position: relative;
+   width: 100%;
+   height: 7vmax;
+   margin: auto;
+   margin-bottom: 2vmax;
+ }
+
+ .header h2 {
+   color: rgba(255, 255, 255, 0.95);
+   text-align: center;
+   top: 2vmin;
+ }
+
+.commission-div {
+  background-color: #00a65a;
+  color: rgba(255, 255, 255,0.95);
+  width: 93%;
+  height: 17vmax;
+  margin: auto;
+  margin-bottom: 2vmax;
+  border-radius: 5px;
+}
+
+.commission-div h3 {
+  position: relative;
+  display: inline;
+  left: 4vmin;
+  top: 4vmin;
+}
+
+.commission-div p {
+  display: inline;
+  position: relative;
+  float: right;
+  font-size: 8vmax;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+  top: 12vmin;
+  right: 4vmin;
+}
+
+.sales-div {
+  background-color: #14a9ce;
+  color: rgba(255, 255, 255,0.95);
+  width: 93%;
+  height: 17vmax;
+  margin: auto;
+  margin-bottom: 2vmax;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.sales-div h3 {
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+.sales-div ul {
+  
+}
+
+.stats-div {
+  background-color: #f39c01;
+  color: rgba(255, 255, 255,0.95);
+  width: 93%;
+  height: 17vmax;
+  margin: auto;
+  margin-bottom: 2vmax;
+  border-radius: 5px;
+}
+
+.stats-div h3 {
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+
+.options-div {
+  background-color: #a60000;
+  color: rgba(255, 255, 255,0.95);
+  width: 93%;
+  height: 17vmax;
+  margin: auto;
+  margin-bottom: 2vmax;
+  border-radius: 5px;
+}
+
+.options-div h3 {
+  position: relative;
+  display: inline;
+  left: 4vmin;
+  top: 4vmin;
+}
