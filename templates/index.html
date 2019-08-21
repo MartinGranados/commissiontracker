@@ -28,11 +28,11 @@
     </select>
     <input class="add-sale-form" type="submit" value="Add">
   </form>
-  <div class="commission-div">
+  <div class="commission box">
     <h3>Earnings</h3>
     <p>{{ total_commission }}</p>
   </div> 
-  <div class="sales-div">
+  <div class="sales box">
     <h3>Sales</h3>
     <ul>
       {% for sale_item in all_items %}
@@ -40,11 +40,11 @@
       {% endfor %}
     </ul>
   </div>
-  <div class="stats-div">
+  <div class="stats box">
     <h3>Stats/Metrics</h3>
       
   </div> 
-  <div class="options-div">
+  <div class="options box">
     <h3>Options</h3>
   </div>
 
